@@ -1,0 +1,102 @@
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  
+  .about .row .image img{
+    height:300px;
+    width:400px;
+    padding-top: 8px;
+    left:10px;
+  }
+  
+  .about .row .aboutContent{
+    padding-left: 1rem;
+  }
+  
+  .about .row .aboutContent h3{
+    font-size: 2.5rem;
+    color:green;
+
+  }
+  .about .row .aboutContent p{
+    font-size: 1.2rem;
+    color:black;
+    padding:1rem 0;
+    margin-left: 2px;
+  }
+  
+  .about .row .aboutContent .aboutbtn{
+    height:2.5rem;
+    width:13rem;
+    background:linear-gradient(180deg, #80b953 2.08%, #2c9984 95.83%);
+    border:none;
+    border-radius: 5rem;
+    /*box-shadow: 0 .2rem 1rem rgba(0,0,0,.3);*/
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: .2s;
+    color:white;
+  }
+  
+  .about .row .aboutContent .aboutbtn:hover{
+    letter-spacing: .2rem;
+    opacity: .8;
+  }
+
+  .aboutStaff{
+    background:white;
+  }
+  .aboutStaff .heading{
+    font-size: 2.5rem;
+    color:green;
+  }
+  .aboutStaff .title{
+    color:#B0D553;
+    font-size: 2rem;
+  }
+  
+  .aboutStaff .about-card-container{
+    display: flex;
+    
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    padding:2rem 0;
+  }
+  
+  .aboutStaff .about-card-container .about-card{
+    padding:1rem;
+    margin: 1rem;
+    background:#9be564;
+    text-align: center;
+    width:400px;
+    height:350px ;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+  }
+  
+  .aboutStaff .about-card-container .about-card img{
+    height:200px;
+    width:200px;
+   
+    padding: 1rem 1rem;
+  }
+  
+  .aboutStaff .about-card-container .about-card:hover img{
+    filter: grayscale(0);
+  }
+  
+  .aboutStaff .about-card-container .about-card h3{
+    color:black;
+    font-size: 1.2rem;
+    padding:.4rem 0;
+  }
+  
+  .aboutStaff .about-card-container .about-card p{
+    font-size: 1.3rem;
+    color:white;
+  }
+  
+  
+  
